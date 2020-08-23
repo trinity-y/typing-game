@@ -15,15 +15,17 @@ public class Movement : MonoBehaviour
         "perhaps the problem lies in the double load I bear, because I ripped myself apart and you just stood there",
     "let me look inside, cause under all that fire, there are knots that I can help undo - my dear I'm only trying to help you",
     "drawing the blinds, thinking of you. poor lonely mind, it's getting confused. will you ever lie next to me in the bed that I dream of us in?",
-    " the dread, this whirring machine, if you can't cool it down, steam is still steam. will you ever know of this image of you that can soothe me to sleep?"};
+    "rewire the dread, this whirring machine, if you can't cool it down, steam is still steam. will you ever know of this image of you that can soothe me to sleep?"};
     private CharacterController controller;
     public bool show;
     static System.Random rng = new System.Random();
     public string text;
     public int playerIndex = 0;
+    public int numOfCharsTyped = 0;
     public Text typingObject;
     public Text targetObject;
     public Single speed = 1.000f;
+    public float timePassed = 0.001f;
     Color green = new Color(0.3059f, 0.404f, 0.2392f);
     Color red = new Color(0.502f, 0.0275f, 0.0275f);
 
@@ -57,12 +59,18 @@ public class Movement : MonoBehaviour
                 playerIndex += 1;
                 speed += 0.2f;
                 typingObject.color = green;
+                numOfCharsTyped += 1;
             }
             else
             {
                 speed -= 0.1f;
                 typingObject.color = red;
             }
+        }
+        if (show)
+        {
+            timePassed += Time.deltaTime;
+            UnityEngine.Debug.Log("characters per second: " + (numOfCharsTyped / timePassed));
         }
     }
 }
