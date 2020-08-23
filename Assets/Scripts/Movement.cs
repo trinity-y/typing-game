@@ -24,8 +24,10 @@ public class Movement : MonoBehaviour
     public int numOfCharsTyped = 0;
     public Text typingObject;
     public Text targetObject;
+    public Text wordsPerMinuteObject;
     public Single speed = 1.000f;
     public float timePassed = 0.001f;
+    public int wpm;
     Color green = new Color(0.3059f, 0.404f, 0.2392f);
     Color red = new Color(0.502f, 0.0275f, 0.0275f);
 
@@ -42,7 +44,7 @@ public class Movement : MonoBehaviour
         show = TextEnabler.show;
         typingObject.gameObject.SetActive(show);
         targetObject.gameObject.SetActive(show);
-        UnityEngine.Debug.Log("movement show: " + show.ToString());
+        wordsPerMinuteObject.gameObject.SetActive(show);
     }
 
     // Update is called once per frame
@@ -52,6 +54,10 @@ public class Movement : MonoBehaviour
         speed -= 0.005f;
         Vector3 forward = transform.TransformDirection(Vector3.forward);
         controller.SimpleMove(forward * speed);
+        if (show)
+        {
+            timePassed += Time.deltaTime;
+        }
         if (Input.anyKeyDown)
         {
             if (char.Parse(Input.inputString) == text[playerIndex])
@@ -66,11 +72,12 @@ public class Movement : MonoBehaviour
                 speed -= 0.1f;
                 typingObject.color = red;
             }
+            if (show)
+            {
+                wpm = (int)Math.Round(numOfCharsTyped / timePassed*12);
+                wordsPerMinuteObject.text = "words per minute: " + wpm.ToString();
+            }
         }
-        if (show)
-        {
-            timePassed += Time.deltaTime;
-            UnityEngine.Debug.Log("characters per second: " + (numOfCharsTyped / timePassed));
-        }
+        
     }
 }

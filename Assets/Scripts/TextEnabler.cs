@@ -11,6 +11,5 @@ public class TextEnabler : MonoBehaviour
     public void enableText()
     {
         show = true;
-        UnityEngine.Debug.Log("text enabler show: " + show.ToString());
     }
 }
