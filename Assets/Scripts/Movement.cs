@@ -17,7 +17,7 @@ public class Movement : MonoBehaviour
     "drawing the blinds, thinking of you. poor lonely mind, it's getting confused. will you ever lie next to me in the bed that I dream of us in?",
     " the dread, this whirring machine, if you can't cool it down, steam is still steam. will you ever know of this image of you that can soothe me to sleep?"};
     private CharacterController controller;
-    public bool show;
+    public static bool show;
     static System.Random rng = new System.Random();
     public string text;
     public int playerIndex = 0;

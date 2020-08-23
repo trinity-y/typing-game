@@ -9,7 +9,7 @@ public class TextEnabler : MonoBehaviour
 {
     static GameObject typingText;
     static GameObject targetText;
-    public bool show = false;
+    public static bool show = false;
     public void enableText()
     {
         show = true;
