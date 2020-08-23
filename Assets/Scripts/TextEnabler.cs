@@ -7,7 +7,7 @@ using UnityEngine.UI;
 
 public class TextEnabler : MonoBehaviour
 {
-    public bool show = false;
+    public static bool show = false;
     public void enableText()
     {
         show = true;
