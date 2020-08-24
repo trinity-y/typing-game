@@ -2050,13 +2050,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c21a7ebc2b7e81d4a97d40816f354078, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  text: 
-  playerIndex: 0
-  numOfCharsTyped: 0
   typingObject: {fileID: 1814930116}
   targetObject: {fileID: 101489252}
   wordsPerMinuteObject: {fileID: 1960751902}
-  speed: 0
+  text: 
+  playerIndex: 0
+  speed: 1
+  numOfCharsTyped: 0
   timePassed: 0.001
   wpm: 0
 --- !u!4 &1229420999 stripped
@@ -3783,7 +3783,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -321, y: 136}
+  m_AnchoredPosition: {x: -308, y: 125}
   m_SizeDelta: {x: 134.09088, y: 59.744934}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1960751902
