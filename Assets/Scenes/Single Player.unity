@@ -2053,7 +2053,7 @@ MonoBehaviour:
   typingObject: {fileID: 1814930116}
   targetObject: {fileID: 101489252}
   wordsPerMinuteObject: {fileID: 1960751902}
-  text: 
+  chosenText: 
   playerIndex: 0
   speed: 1
   numOfCharsTyped: 0
@@ -3557,7 +3557,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: a2fb46031534f1f49afa38ba8ea81ee2, type: 2}
+  - {fileID: 2100000, guid: 3296b452510fee84d9a6ea890ebb2367, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -3885,15 +3885,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 4c2f11536d79b9d4990d94c7b63a2581, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 8.719997
+      value: 8.37
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 4c2f11536d79b9d4990d94c7b63a2581, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.0499992
+      value: -1.05
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 4c2f11536d79b9d4990d94c7b63a2581, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -10.51
+      value: -13.49
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 4c2f11536d79b9d4990d94c7b63a2581, type: 3}
       propertyPath: m_LocalRotation.x
