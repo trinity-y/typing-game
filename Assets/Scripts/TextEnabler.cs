@@ -7,11 +7,6 @@ using UnityEngine.UI;
 
 public class TextEnabler : MonoBehaviour
 {
-<<<<<<< HEAD
-    static GameObject typingText;
-    static GameObject targetText;
-=======
->>>>>>> f5fc538df39db096430167cf55ecb9a842424915
     public static bool show = false;
     public void enableText()
     {
