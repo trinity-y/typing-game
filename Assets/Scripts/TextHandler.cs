@@ -11,7 +11,7 @@ public class TextHandler : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        targetText = GameObject.Find("Main Camera").GetComponent<Movement>().text;
+        targetText = GameObject.Find("Main Camera").GetComponent<Movement>().chosenText;
         playerIndex = GameObject.Find("Main Camera").GetComponent<Movement>().playerIndex;
         
     }
