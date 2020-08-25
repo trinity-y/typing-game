@@ -121,6 +121,7 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+<<<<<<< HEAD
 --- !u!1 &294469664
 GameObject:
   m_ObjectHideFlags: 0
@@ -374,6 +375,8 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 398237342}
   m_CullTransparentMesh: 0
+=======
+>>>>>>> e485b3928d7c4a35b822b57361cf6e854775d610
 --- !u!1 &452454895
 GameObject:
   m_ObjectHideFlags: 0
@@ -568,8 +571,13 @@ MonoBehaviour:
   m_Transition: 1
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+<<<<<<< HEAD
     m_HighlightedColor: {r: 0.8679245, g: 0.8679245, b: 0.8679245, a: 1}
     m_PressedColor: {r: 0.31823862, g: 0.3962264, b: 0.08784264, a: 1}
+=======
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+>>>>>>> e485b3928d7c4a35b822b57361cf6e854775d610
     m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
     m_ColorMultiplier: 1
@@ -738,8 +746,11 @@ RectTransform:
   - {fileID: 1937828147}
   - {fileID: 2105890011}
   - {fileID: 1009411694}
+<<<<<<< HEAD
   - {fileID: 1876465228}
   - {fileID: 398237343}
+=======
+>>>>>>> e485b3928d7c4a35b822b57361cf6e854775d610
   m_Father: {fileID: 1261756566}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -808,6 +819,7 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
+<<<<<<< HEAD
 --- !u!1 &1184465647
 GameObject:
   m_ObjectHideFlags: 0
@@ -942,6 +954,8 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1184465647}
   m_CullTransparentMesh: 0
+=======
+>>>>>>> e485b3928d7c4a35b822b57361cf6e854775d610
 --- !u!1 &1261756562
 GameObject:
   m_ObjectHideFlags: 0
@@ -1041,6 +1055,7 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+<<<<<<< HEAD
 --- !u!1 &1876465227
 GameObject:
   m_ObjectHideFlags: 0
@@ -1160,6 +1175,8 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1876465227}
   m_CullTransparentMesh: 0
+=======
+>>>>>>> e485b3928d7c4a35b822b57361cf6e854775d610
 --- !u!1 &1937828146
 GameObject:
   m_ObjectHideFlags: 0

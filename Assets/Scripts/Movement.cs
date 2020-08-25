@@ -22,6 +22,7 @@ public class Movement : MonoBehaviour
      * VARIABLES!!
     */
     // text database - all possibilities for text are here
+<<<<<<< HEAD
     static string[] textDatabase = new string[7] {"You saw through me all this time, I'd forgotten people were kind. I was hurting, and you knew, so you showed me what to do. You said I will listen, tell it all, when you're finished, we'll talk more. I didn't know how, so we took it in turns, and to my surprise, we found my words.", 
         "I'm not bitter, I'm just tired - no use getting angry at the way that you're wired.. Ignorant trauma in one afternoon. I could never let you know - you'd never get it - but now I'm the one who can't let go.", 
         "Someone hold me down before I book a flight to your front door, no one else will bring relief, and I don't want to greive. Heaving life into the dead, the book is closed, the words were said.. everyone but me just knows how to let go.", 
@@ -29,6 +30,15 @@ public class Movement : MonoBehaviour
         "Let me look inside, cause under all that fire, there are knots that I can help undo - my dear I'm only trying to help you. Will you soften to me, will you not let me be just someone else not getting through? My dear, I'm only trying to help you.",
         "Drawing the blinds, thinking of you. Poor lonely mind, it's getting confused. Will you ever lie next to me in the bed that I dream of us in? Rewire the dread, this whirring machine, if you can't cool it down, steam is still steam. will you ever know of this image of you that can soothe me to sleep?",
     "I carry the time we don't talk in a backpack. Leave it on the side with the nights you didn't call me back. God, I swore I wouldn't play the age old game. I watched you all ask all your lovers away. Rolling our eyes to the back of your head, surely you know to close them instead."};
+=======
+    static string[] textDatabase = new string[7] {"the higher we build, the harder to see, paint over your strokes and the ink will just bleed", 
+        "I'm not bitter, I'm just tired - no use getting angry at the way that you're wired", 
+        "someone hold me down before I book a flight to your front door, no one else will bring relief, and I don't want to greive", 
+        "perhaps the problem lies in the double load I bear, because I ripped myself apart and you just stood there",
+    "let me look inside, cause under all that fire, there are knots that I can help undo - my dear I'm only trying to help you",
+    "drawing the blinds, thinking of you. poor lonely mind, it's getting confused. will you ever lie next to me in the bed that I dream of us in?",
+    "rewire the dread, this whirring machine, if you can't cool it down, steam is still steam. will you ever know of this image of you that can soothe me to sleep?"};
+>>>>>>> e485b3928d7c4a35b822b57361cf6e854775d610
     // objects that need to be connected (this allows us to change the text on them)
     public Text typingObject;
     public Text targetObject;
@@ -53,7 +63,11 @@ public class Movement : MonoBehaviour
     private void Awake()
     {
         // choose a random text and update text objects
+<<<<<<< HEAD
         chosenText = textDatabase[rng.Next(0, textDatabase.Length)];
+=======
+        chosenText = textDatabase[rng.Next(0, 7)];
+>>>>>>> e485b3928d7c4a35b822b57361cf6e854775d610
         typingObject.text = chosenText;
         targetObject.text = chosenText;
     }

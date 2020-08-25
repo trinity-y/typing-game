@@ -64,10 +64,14 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\ASCIIRendering.cs" />
+<<<<<<< HEAD
     <Compile Include="Assets\Scripts\Movement.cs" />
     <Compile Include="Assets\Scripts\Rotator.cs" />
     <Compile Include="Assets\Scripts\SceneHandler.cs" />
     <Compile Include="Assets\Scripts\TextEnabler.cs" />
+=======
+    <Compile Include="Assets\Scripts\Rotator.cs" />
+>>>>>>> e485b3928d7c4a35b822b57361cf6e854775d610
     <Compile Include="Assets\Scripts\TextHandler.cs" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
